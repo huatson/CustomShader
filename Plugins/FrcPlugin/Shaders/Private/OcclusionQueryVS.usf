@@ -1,0 +1,9 @@
+
+// Simple pass-through vertex shader
+void MainVS(
+    in float4 InPosition : ATTRIBUTE0,
+    out float4 Output : SV_POSITION
+)
+{
+    Output = InPosition;
+}

@@ -1,0 +1,7 @@
+
+// Simple solid color pixel shader
+float4 MyColor;
+float4 MainPS() : SV_Target0
+{
+    return MyColor;
+}
